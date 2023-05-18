@@ -5,7 +5,7 @@ export default function About() {
     <div>
       <h1>About Page</h1>
       <p>
-        I am a full time Engineer who works on programs 
+        I am a full time Engineer who creates and develops programs 
         to automate and improve efficiency for everyone.
       </p>
     </div>
