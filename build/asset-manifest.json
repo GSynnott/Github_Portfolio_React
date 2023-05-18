@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5144e8b9.css",
+    "main.js": "/static/js/main.cd978dc5.js",
+    "static/media/ticketmaster-event-planner_.png": "/static/media/ticketmaster-event-planner_.a22e3810fbf0fb42d021.png",
+    "static/media/Header_Background_Image.jpg": "/static/media/Header_Background_Image.422a620f32495c803f0f.jpg",
+    "static/media/Scriptomatics_HomePage.png": "/static/media/Scriptomatics_HomePage.8c75f259b2a313383500.png",
+    "static/media/E-Commerce-Back-End.png": "/static/media/E-Commerce-Back-End.e6f5afb34473ede651d5.png",
+    "static/media/Work-Day-Scheduler.png": "/static/media/Work-Day-Scheduler.851d828199d2619ea0b5.png",
+    "static/media/Password-Generator.png": "/static/media/Password-Generator.370ef4aef5df45fd8663.png",
+    "static/media/JS-Quiz.png": "/static/media/JS-Quiz.eb96b52f93f8b8a90ebf.png",
+    "index.html": "/index.html",
+    "main.5144e8b9.css.map": "/static/css/main.5144e8b9.css.map",
+    "main.cd978dc5.js.map": "/static/js/main.cd978dc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5144e8b9.css",
+    "static/js/main.cd978dc5.js"
+  ]
+}
