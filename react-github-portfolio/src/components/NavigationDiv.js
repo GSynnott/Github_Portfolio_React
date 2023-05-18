@@ -4,18 +4,15 @@ import "./styles/styles.css"
 function NavigationDiv({ currentPage, handlePageChange }) {
     return (
         <div className="banner">
-          <nav className="nav-item">
-            <a
-              href="#AboutMe"
-              onClick={() => handlePageChange('AboutMe')}
-              // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-              // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          <nav className="banner-btn">
+            <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}
+              // Set the current page to 'nav-link-active' if the current page is AboutMe, otherwise we set it to 'nav-link'
               className={currentPage === 'AboutME' ? 'nav-link active' : 'nav-link'}
             >
               About Me
             </a>
           </nav>
-          <nav className="nav-item">
+          <nav className="banner-btn">
             <a
               href="#Contact"
               onClick={() => handlePageChange('Contact')}
@@ -25,7 +22,7 @@ function NavigationDiv({ currentPage, handlePageChange }) {
               Contact
             </a>
           </nav>
-          <nav className="nav-item">
+          <nav className="banner-btn">
             <a
               href="#Portfolio"
               onClick={() => handlePageChange('Portfolio')}
@@ -35,7 +32,7 @@ function NavigationDiv({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </nav>
-          <nav className="nav-item">
+          <nav className="banner-btn">
             <a
               href="#Resume"
               onClick={() => handlePageChange('Resume')}
